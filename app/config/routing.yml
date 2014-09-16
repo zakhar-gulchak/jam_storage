@@ -1,0 +1,5 @@
+jam:
+    resource: "@JamBundle/Controller/"
+    type:     annotation
+    prefix:   /
+

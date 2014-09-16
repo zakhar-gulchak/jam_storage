@@ -1,0 +1,12 @@
+Zahar\JamBundle\Entity\JamType:
+    jam_type{1..10}:
+        name: <randomElement(['apple', 'berry', 'strawberry', 'cherry'])>
+Zahar\JamBundle\Entity\YearList:
+    year_list{1..10}:
+        name: <numberBetween(1990, 2014)>
+Zahar\JamBundle\Entity\JamJar:
+    jam_jar{1..20}:
+        jamType: @jam_type*
+        year: @year_list*
+        comment: <word()>
+
