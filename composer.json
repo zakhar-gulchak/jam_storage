@@ -25,7 +25,12 @@
         "squizlabs/php_codesniffer": "1.*",
         "phpmd/phpmd" : "2.0.*",
         "pdepend/pdepend" : "2.*",
-        "sonata-project/admin-bundle": "dev-master"
+        "knplabs/knp-menu-bundle": "1.1.*",
+        "sonata-project/core-bundle": "~2.2@dev",
+        "sonata-project/block-bundle": "~2.2,>=2.2.1",
+        "sonata-project/jquery-bundle": "1.10.*",
+        "sonata-project/admin-bundle": "dev-master",
+        "sonata-project/doctrine-orm-admin-bundle": "~2.2@dev"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3"

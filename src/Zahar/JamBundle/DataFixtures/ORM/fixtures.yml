@@ -9,4 +9,3 @@ Zahar\JamBundle\Entity\JamJar:
         jamType: @jam_type*
         year: @year_list*
         comment: <word()>
-
